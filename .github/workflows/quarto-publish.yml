@@ -29,4 +29,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v3
 
+      - name: Render project
+        run: quarto render
+
 
